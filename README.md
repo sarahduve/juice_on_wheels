@@ -48,7 +48,7 @@ employee efficiency and performance.
 
 ## Other notes
 * For simplicity here, there is no battery mode and instead is currently just mocked out by just setting the
-vehicle's battery_level to 1. In reality, batteries are precious inventory we
+vehicle's `battery_level` to 1. In reality, batteries are precious inventory we
 would definitely want to track in a database by serial number etc.
 
 * Also for simplicity, route order is based on Euclidean distance rather than
@@ -75,3 +75,5 @@ would definitely want to track in a database by serial number etc.
   daytime shifts, for optimal route finding a separate endpoint is necessary which only doles out one
   vehicle at a time, based on which is a) closest to the swapper's current
   location b) not in use c) below a certain battery level?
+- [ ] Should `BatteryShift` be in charge of assigning vehicles to itself, or
+  does this call for a service object like a VehicleAssigner
