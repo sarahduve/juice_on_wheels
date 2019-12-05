@@ -79,5 +79,5 @@ would definitely want to track in a database by serial number etc.
   vehicle at a time, based on which is a) closest to the swapper's current
   location b) not in use c) below a certain battery level?
 - [ ] Should `BatteryShift` be in charge of assigning vehicles to itself, or
-  does this call for a service object like a VehicleAssigner
+  does this call for a service object like a VehicleAssigner?
 - [ ] Improvements to auto-assign algo. See [kdtree](https://github.com/gurgeous/kdtree) gem. 
