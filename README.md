@@ -43,6 +43,7 @@ battery swappers on the job, as well as a web app used by management to monitor
 employee efficiency and performance.
 
 ![Half of a sample shift's route](https://github.com/sarahduve/juice_on_wheels/blob/master/route.jpg?raw=true)
+_Half of a sample shift's route_
 
 \*This is a gross oversimplification of how juicing bounty programs
   work in practice. Often, the scooters are hard to find, competition is
