@@ -42,6 +42,8 @@ One can envision this API being consumed both by a mobile app used by
 battery swappers on the job, as well as a web app used by management to monitor
 employee efficiency and performance.
 
+![Half of a sample shift's route](https://raw.githubusercontent.com/sarahduve/juice_on_wheels/master/route.jpg)
+
 \*This is a gross oversimplification of how juicing bounty programs
   work in practice. Often, the scooters are hard to find, competition is
   cutthroat, and the system easily gamed.
